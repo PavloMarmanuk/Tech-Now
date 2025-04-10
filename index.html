@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Now - Новинний портал технологій</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <h1>Tech<span>Now</span></h1>
+            </div>
+            <nav class="main-nav">
+                <button class="mobile-menu-btn" aria-label="Відкрити меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-list">
+                    <li><a href="#" class="active">Головна</a></li>
+                    <li><a href="#">Новини</a></li>
+                    <li><a href="#">Огляди</a></li>
+                    <li><a href="#">Гаджети</a></li>
+                    <li><a href="#">Штучний інтелект</a></li>
+                    <li><a href="#">Про нас</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" placeholder="Пошук новин...">
+                <button type="submit" aria-label="Пошук"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Останні новини зі світу технологій</h2>
+                <p>Будьте в курсі найсвіжіших подій та інновацій</p>
+                <a href="#" class="btn">Читати більше</a>
+            </div>
+        </div>
+    </section>
+
+    <main class="main-content">
+        <div class="container">
+            <div class="content-grid">
+                <section class="featured-news">
+                    <h2 class="section-title">Головні новини</h2>
+                    <div class="news-card featured">
+                        <div class="news-img">
+                            <img src="img/1.jpg" alt="Нова технологія AI">
+                        </div>
+                        <div class="news-content">
+                            <span class="category">Штучний інтелект</span>
+                            <h3>Революційна технологія AI змінює майбутнє розробки програмного забезпечення</h3>
+                            <p>Нова система штучного інтелекту здатна писати код швидше та ефективніше, ніж людина-програміст...</p>
+                            <div class="news-meta">
+                                <span class="date">12 квітня 2023</span>
+                                <span class="author">Автор: Олена Петренко</span>
+                            </div>
+                            <a href="#" class="read-more">Читати далі</a>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="news-list">
+                    <h2 class="section-title">Останні новини</h2>
+                    <div class="news-grid">
+                        <article class="news-card">
+                            <div class="news-img">
+                                <img src="img/1.jpg" alt="Новий смартфон">
+                            </div>
+                            <div class="news-content">
+                                <span class="category">Гаджети</span>
+                                <h3>Новий флагманський смартфон з революційною камерою</h3>
+                                <p>Компанія представила новий смартфон з унікальною системою камер...</p>
+                                <div class="news-meta">
+                                    <span class="date">10 квітня 2023</span>
+                                </div>
+                                <a href="#" class="read-more">Читати далі</a>
+                            </div>
+                        </article>
+
+                        <article class="news-card">
+                            <div class="news-img">
+                                <img src="img/1.jpg" alt="Електромобіль">
+                            </div>
+                            <div class="news-content">
+                                <span class="category">Транспорт</span>
+                                <h3>Електромобіль з рекордним запасом ходу представлений на виставці</h3>
+                                <p>Новий електрокар здатний проїхати до 1000 км на одному заряді...</p>
+                                <div class="news-meta">
+                                    <span class="date">9 квітня 2023</span>
+                                </div>
+                                <a href="#" class="read-more">Читати далі</a>
+                            </div>
+                        </article>
+
+                        <article class="news-card">
+                            <div class="news-img">
+                                <img src="img/1.jpg" alt="VR окуляри">
+                            </div>
+                            <div class="news-content">
+                                <span class="category">VR/AR</span>
+                                <h3>Нові VR окуляри змінюють підхід до віртуальної реальності</h3>
+                                <p>Компактні та потужні окуляри віртуальної реальності нового покоління...</p>
+                                <div class="news-meta">
+                                    <span class="date">8 квітня 2023</span>
+                                </div>
+                                <a href="#" class="read-more">Читати далі</a>
+                            </div>
+                        </article>
+
+                        <article class="news-card">
+                            <div class="news-img">
+                                <img src="img/1.jpg" alt="Квантовий комп'ютер">
+                            </div>
+                            <div class="news-content">
+                                <span class="category">Комп'ютери</span>
+                                <h3>Прорив у квантових обчисленнях: новий процесор встановив рекорд</h3>
+                                <p>Дослідники досягли значного прогресу в розробці квантових комп'ютерів...</p>
+                                <div class="news-meta">
+                                    <span class="date">7 квітня 2023</span>
+                                </div>
+                                <a href="#" class="read-more">Читати далі</a>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                <aside class="sidebar">
+                    <div class="widget categories">
+                        <h3 class="widget-title">Категорії</h3>
+                        <ul>
+                            <li><a href="#">Штучний інтелект <span>(24)</span></a></li>
+                            <li><a href="#">Гаджети <span>(42)</span></a></li>
+                            <li><a href="#">Програмне забезпечення <span>(18)</span></a></li>
+                            <li><a href="#">Кібербезпека <span>(15)</span></a></li>
+                            <li><a href="#">Стартапи <span>(31)</span></a></li>
+                            <li><a href="#">Інтернет речей <span>(9)</span></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="widget popular-posts">
+                        <h3 class="widget-title">Популярні статті</h3>
+                        <div class="popular-post">
+                            <img src="img/1.jpg" alt="Популярна стаття">
+                            <div>
+                                <h4>Як технології змінюють медицину в 2023 році</h4>
+                                <span class="date">5 квітня 2023</span>
+                            </div>
+                        </div>
+                        <div class="popular-post">
+                            <img src="img/1.jpg" alt="Популярна стаття">
+                            <div>
+                                <h4>Топ-10 інновацій, які змінять світ у найближчі 5 років</h4>
+                                <span class="date">3 квітня 2023</span>
+                            </div>
+                        </div>
+                        <div class="popular-post">
+                            <img src="img/1.jpg" alt="Популярна стаття">
+                            <div>
+                                <h4>Огляд найкращих ноутбуків для програмістів</h4>
+                                <span class="date">1 квітня 2023</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="widget newsletter">
+                        <h3 class="widget-title">Підписка на новини</h3>
+                        <p>Отримуйте найсвіжіші новини технологій на вашу електронну пошту</p>
+                        <form>
+                            <input type="email" placeholder="Ваш email" required>
+                            <button type="submit" class="btn">Підписатися</button>
+                        </form>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <section class="banner">
+        <div class="container">
+            <div class="banner-content">
+                <h2>Технологічна конференція Tech Now 2023</h2>
+                <p>Приєднуйтесь до найбільшої технологічної події року! 15-17 травня, Київ</p>
+                <a href="#" class="btn btn-light">Дізнатися більше</a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Simple mobile menu toggle
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('.nav-list').classList.toggle('show');
+            this.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
